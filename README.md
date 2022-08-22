@@ -27,9 +27,9 @@ and abstract from every thing on the project) every page on contrle panel has ed
     </ul>
   <li> profile page</li>
     <ul>
-      <li> edit main info<\li>
-      <li> add new product<\li>
-      <li> all product that user posted<\li>
+      <li> edit main info</li>
+      <li> add new product</li>
+      <li> all product that user posted</li>
     </ul>
   <li>footer to show info about us</li>
 </ul>
