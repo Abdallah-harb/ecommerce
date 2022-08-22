@@ -1,0 +1,252 @@
+/*start main roles*/
+body{
+
+	background-color: #f8f8f8;
+	text-decoration: none;
+    text-transform: capitalize;
+}
+h1{
+	color: #636363;
+    margin: 40px 0;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+h3{
+    font-size: 24px;
+    color: #777;
+    font-style: italic;
+}
+.asterix{
+    font-size: 30px;
+    position: absolute;
+    right: 6px;
+    color: red;
+    top: 2px;
+}
+.main-form .asterix{
+    font-size: 35px;
+    position: absolute;
+    right: 27px;
+    color: red;
+    top: 5px;
+}
+/*end main roles*/
+/* start header */
+.upper-bar{
+	padding: 10px 
+    background-color: #fff;
+}
+/* end header */
+/* start login page */
+.login-page form{
+	max-width: 380px;
+	margin: auto;
+}
+.login-page h1{
+    color: #d6cdcd;
+    margin: 40px 0;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+.login-page span{
+	cursor: pointer;
+}
+.login-page .selected{
+	color: #ca2525;
+}
+.login-page [data-class='login'].selected{
+	color: #337ab7;
+}
+.login-page [data-class='signup'].selected{
+	color: #5cb85c;
+}
+.login-page form input{
+	margin: 10px;
+}
+.input-control{
+	position: relative;
+}
+.login-page .signup{
+	display: none;
+}
+
+.
+/* end login page */
+/* start bootstrap edit */
+.navbar{
+	border-radius: 0;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.navbar .navbar-brand{
+	font-size: 20px;
+}
+
+.navbar-nav>li>.dropdown-menu{
+	background-color: #2752b6;
+	font-size: 15px;
+}
+.dropdown-menu>li>a{
+	color: #ede7e7;
+
+
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #9d9d9d;
+    font-size: 18px;
+}
+/* End bootstrap edit */
+
+/* start category page ( item edit )*/
+
+.item-box{
+	position: relative;
+
+}
+.item-box .Approve-status{
+    position: absolute !important;
+    background-color: #950000;
+    top: 111px;
+    width: 245px;
+    padding: 7px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 8px;
+    text-align: center;
+}
+.item-box .price-tag{
+	position: absolute;
+    background-color: #2b3c46;
+    color: #fff;
+    padding: 5px;
+    font-weight: bold;
+}
+.item-box .caption .data{
+    text-align: right;
+    font-size: 11px;
+    color: #aaa;
+    font-weight: bold;
+
+}
+.item-box .caption p{
+    height: 55px;
+    overflow: hidden;
+}
+.comment-box{
+    margin-bottom: 10px;
+}
+.comment-box img{
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+.comment-box .content{
+    font-size: 21px;
+    background-color: #eee;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: #555;
+    text-transform: capitalize;
+}
+/* end category page ( item edit ) */
+/* start profile page */
+.information{
+	margin-top: 20px;
+}
+.information .Edit{
+     background: #337ab7;
+    margin: 0;
+    padding: 2px;
+    color: #fff;
+    font-weight: bold;
+}
+}
+.information ul{
+	margin: 0;
+	padding: 0;
+}
+.information ul li{
+	padding: 10px;
+}
+.information ul li:nth-child(odd){
+	background-color: #eee;
+}
+.information ul li i{
+	margin-right: 3px;
+}
+.information ul li span{
+    width: 120px;
+    display: inline-block;
+}
+.my-ads .ads{
+    background: #337ab7;
+    margin: 0;
+    padding: 2px;
+    color: #fff;
+    font-weight: bold;
+}
+.active-pink-textarea-2 textarea.md-textarea {
+    border-bottom: 1px solid #337ab7;
+    box-shadow: 0 1px 0 0 #337ab7;
+    margin-bottom: 20px;
+}
+
+/* end profile page */
+/* start item page */
+.item-info ul{
+    padding: 0;
+    margin-bottom: 25px;
+
+}
+.item-info ul li{
+    padding: 10px;
+}
+.item-info ul li:nth-child(odd){
+    background-color: #dadada;
+}
+.item-info ul li i{
+    margin-right: 3px;
+}
+.item-info ul li span{
+    width: 120px;
+    display: inline-block;
+}
+
+.custom-hr{
+    margin-bottom: 40px;
+    border-top: 1px solid #acacac
+}
+/* end item page */
+/*Start search page*/
+.search{
+    margin-bottom: 50px;
+}
+/*Endsearch page*/
+
+/*start footer*/
+.footer{
+    margin-top: 50px;
+    background-color: #3f3f3f;
+    font-size: 15px;
+    padding-top: 13px;
+    border-radius: 10px;
+}
+.footer .social{
+    padding: 10px 0 10px 0;
+}
+.footer .company  h6{
+    font-size: 17px;
+}
+.text-muted {
+    color: #9d9d9d;
+}
+.footer .company a , .footer .end-footer a{
+    text-decoration: none;
+    color: #9d9d9d;
+}
+.footer .end-footer{
+    background-color: #313131;
+}
+/*End footer*/

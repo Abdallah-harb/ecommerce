@@ -1,0 +1,257 @@
+/*start main roles*/
+body{
+
+	background-color: #f8f8f8;
+	text-decoration: none;
+}
+/*end main roles*/
+
+/*start login form*/
+.login{
+		width: 300px;
+		margin: 100px auto;
+}
+.login input{
+	margin-bottom: 10px;
+}
+
+.login .form-control{
+	background-color: #E5E5E5;
+}
+/*end login form*/
+/* start bootstrap edit */
+.navbar{
+	border-radius: 0;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.navbar .navbar-brand{
+	font-size: 20px;
+}
+
+.navbar-nav>li>.dropdown-menu{
+	background-color: #2752b6;
+	font-size: 15px;
+}
+.dropdown-menu>li>a{
+	color: #ede7e7;
+}
+/* End bootstrap edit */
+
+/* start dashboard page */
+.home-stat .stat{
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px #aba8a8;
+    margin-bottom: 10px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+.home-stat .stat i{
+	position: absolute;
+    font-size: 80px;
+    left: 30px;
+    top: 28px;
+}
+.home-stat .stat .info{
+	float: right;
+}
+.home-stat .stat a{
+	color: #fff;
+}
+.home-stat .stat a:hover{
+	text-decoration: none;
+}
+.home-stat .stat span{
+	font-size: 50px;
+	display: block;
+}
+.home-stat .st-member{
+	background-color: #2980b9;
+}
+.home-stat .st-pending{
+	background-color: #c0392b;
+}
+.home-stat .st-item{
+	background-color: #d35400;
+}
+.home-stat .st-comments{
+	background-color: #8e44ad;
+}
+.latest{
+	margin-top: 45px;
+}
+.latest .toggle-info{
+	color: #999;
+}
+.latest .toggle-info:hover{
+	color: #333;
+	cursor: pointer;
+}
+.latest-user{
+	margin-bottom: 0;
+}
+.latest-user li{
+	padding: 4px 6px;
+	overflow: hidden;
+}
+.latest-user li:nth-child(odd){
+	background-color: #eee;
+}
+.latest-user .btn-success,
+.latest-user .btn-info{
+	padding: 2px 8px;
+}
+.latest-user .btn-info{
+	margin-right: 7px;
+}
+.latest-user li i{
+	margin-right: 2px;
+}
+.latest .comment-box{
+	margin-right: 5px 0 10px;
+}
+.latest .comment-box .comment-m,
+.latest .comment-box .comment-c{
+	float: left;
+}
+.latest .comment-box .comment-m{
+	margin-right: 20px;
+	width: 80px;
+	text-align: center;
+}
+.latest .comment-box .comment-c{
+	width: calc(100% - 100px);
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* End dashboard page */
+
+/*start member page */
+h1{
+	color: #636363;
+    margin: 40px 0;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+.alert-danger{
+	font-weight: bold;
+	font-size: 15px;
+}
+.form-control{
+	position: relative;
+}
+.asterix{
+	font-size: 30px;
+    position: absolute;
+    right: 25px;
+    color: red;
+    top: 10px;
+}
+.main-table{
+	box-shadow: 0px 5px 10px #ccc;
+}
+.main-table td{
+	background-color: #fff;
+	vertical-align: middle !important;
+}
+.main-table tr:first-child td{
+	background-color: #333;
+	color: #fff;
+
+}
+.main-table tr .btn{
+	margin-right: 5px;
+	padding: 3px 10px;
+}
+.main-table tr .btn .fa{
+	position: relative;
+	padding-right:4px ;
+}
+/*End member page */
+/* Start category page */
+.category{
+	margin-bottom: 50px;
+}
+.category .add-cat{
+	margin-left: 7px;
+    border-radius: 10px;
+    background-color: #e74c3c;
+    padding: 2px 7px;
+    color: #fff;
+}
+.category .ordering a{
+	color: #fff;
+	text-decoration: none;
+}
+.category .ordering .active{
+background-color: #e74c3c;
+    padding: 2px 1px 2px 4px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 2px;
+}
+.category .cat{
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+.category .cat:hover{
+	background-color: #eee;
+	border-radius: 10px;
+}
+.category .cat:hover .hidden-button {
+	right: 10px;
+}
+.category .cat .hidden-button{
+	transition: all .5s ease-in-out;
+	position: absolute;
+	top: 15px;
+	right: -154px;
+}
+.category .cat .hidden-button a{
+	margin-right: 5px;
+	padding: 3px 5px;
+}
+.category .cat h3{
+	margin: 0 0 15px;
+	color: #505050;
+}
+.category .cat .content{
+	margin-left: 15px;
+}
+.category .cat .content p span{
+	font-weight: bold;
+}
+.category .cat:last-of-type  hr{
+	display: none;
+}
+.category .cat .rotiuch .fa{
+	margin-right: 4px;
+}
+.category .cat .visible{
+	background-color: #e67e22;
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 4px 0 4px;
+}
+.category .cat .commenting{
+	background-color: #34495e;
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 4px 0 4px;
+}
+.category .cat .advertise{
+	background-color: #c0392b;
+    padding: 4px 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 4px 0 4px;
+}
+/* End category page */
