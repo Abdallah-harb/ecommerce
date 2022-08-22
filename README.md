@@ -11,7 +11,7 @@
 <p>
 that made from scrath that has  total category -members-items-comment
 and abstract from every thing on the project) every page on contrle panel has edit and delete and create 
-</p.
+</p>
 <h2>user pages </h2>
 <ul>
   <li>signin | signup</li>
